@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.caja{
+    background-color: rgb(50, 121, 22);
+    width: 250px;
+    margin: 20px 10px;
+
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 10px;
+    border: 10px solid wheat;
+}
+body{
+    color: rgb(206, 195, 235);
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 20px;
+}
+.caja p{
+    background-color: rgb(64, 54, 88);
+}

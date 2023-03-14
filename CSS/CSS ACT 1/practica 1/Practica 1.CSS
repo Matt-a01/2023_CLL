@@ -1,0 +1,23 @@
+body{
+    background: rgb(189, 84, 186);
+    font-family: monospace;
+}
+
+#Contenedor1{
+    width: 10px;
+    right: auto;
+    background-color: black;
+}
+.boton1{
+    margin: 10px;
+    padding: 6px;
+    border: 2px solid;
+    border-color: rgb(205, 205, 255);
+    opacity: 0.33;
+}
+.boton1:hover{
+    opacity: 1;
+}
+#Contenedor2{
+
+}

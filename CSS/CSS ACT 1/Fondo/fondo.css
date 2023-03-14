@@ -1,0 +1,10 @@
+body{
+    /* background-image: url(https://64.media.tumblr.com/cee301fc808ebc4a4de8f71daf4b4217/tumblr_p5b98yVcGc1u8imavo1_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll; */
+
+    background: url(https://64.media.tumblr.com/cee301fc808ebc4a4de8f71daf4b4217/tumblr_p5b98yVcGc1u8imavo1_1280.jpg) no-repeat center center fixed;
+    background-size: 200px;
+}

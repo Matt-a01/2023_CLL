@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap');
+
+body{
+    font-family: 'Source Code Pro', monospace;
+}
+body#principal {
+    background: url(https://chat.google.com/u/1/api/get_attachment_url?url_type=FIFE_URL&content_type=image%2Fpng&attachment_token=AMzByC2byAp5J76hytOGdHEhb6Daa3FYwIwh8jp%2B5VrLddwjoAT7GAygWxXeijK%2BQq%2FjAHjwPhbr2xtQ1ulmjec3f1gpVRO6l%2BeFONxHiEnHVw5R%2BhdnhXfgyq5JWNkLIcCED8ZlP2zi4iZLfVQr3Lx4dCSd6ZqiZVPOzqofl2i3RO5Cguw8gejS%2FBHC3ILrWo6xpfZVAjccOM1rMMv0Eh2NTXottuEC9IeluXcSCZ%2BdkRBdIy8ixmavytK44UMaKnehJh9TUOWfcoMZgwjdTdZEKCpuoy%2FhvxAroYp3hB3A6K2yh%2BTXRQJIusW3rK6LuoNllzcsFfUMwPy1YsnGoP5x3liOsD6pf%2BB%2BWCrcf5gAVQ001H1qs2xZdqLB33G3U6BeaWvl46NJUKl66Ee0TAQACwykUnZzARsU5sXblUSWjY6W6hF9mpj4IdDW%2FtlasFzt6LdeTB7qvp9o6oGxaCRRbAG9t5Du2SYhumwPZnpBSW44KQdnkKHJP2DBc2qYGCvZqcs0etDVlDT3U%2FB%2FnahDVkO6Ic8FIvO0mcgMbj3nQnslRSJNiKypcYExpQ7f&authuser=1&sz=w1366-h625);
+    background-size: 200px 200px;
+}
+.centro {
+    padding-left: 10%;
+    padding-right: 12%;
+}
+div.izquierda{
+    padding-right: 90%;
+    position:  fixed;
+}
+p.notaizquierda{
+    font-size: small;
+    padding: 10px;
+    border-style: ridge;
+    font-weight: bold;
+    background: lightblue;
+    border-radius: 19px;
+}
+
+div.derecha {
+    padding-left: 87%;
+    position: fixed;
+}
+aside#nota1{
+    padding: 9px;
+    background-color: rgb(231, 77, 77);
+
+}
+section,header {
+    background: cornsilk;
+}
+h1 {
+    font-size: large;
+    color: beige;
+    background: #6f9ff7;
+    text-align: center;
+}
+h2{
+    color: #3f5d96;
+    border-bottom-color: darkseagreen;
+    border-bottom-style: solid;
+}
+h3{
+    color: #836ff7;
+}
+
+em.termino{
+    color: rgb(30, 104, 79);
+}
+em.propiedad{
+    color: azure;
+    font-weight: bold;
+    font-style:  normal;
+}
+em.valor{
+    color: crimson;
+    font-weight: bold;
+    font-weight: normal;
+}
+aside#nota2{
+    padding: 5px;
+    background-color: #9f62b1;
+    border-color: rgb(85, 85, 163);
+    border-style: solid;
+    border-width: thin;
+}
+p.normal:hover,
+p.inicial:hover,
+li.itemnivel1:hover,
+header:hover,
+aside:hover{
+    font-size: large;
+}
+
+p.inicial::first-letter{
+    font-size: large;
+    font-family: cursive;
+}
+
+p:hover,
+li:hover,
+header:hover{
+    background-color: white;
+}
+
+/*Permite deslizas las cajas TODO lo posible hacia la ezquierda o derecha*/
+img#pFlotante{
+    float: inline-end;
+}
+/* Nos va a permitir mover la caja respecto a su contenedor y el resto de los elementos ignoran la nueva posisicion 
+
+img#pAbsoluto{
+    position: absolute;
+
+}*/
+
+.cajaPadre{
+    margin: 20px;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    position: relative;
+}
+img#pAbsoluto{
+    position: absolute;
+    padding: 20px;
+}
+
+/* Relativo: No va a permitir mover una caja y despues moverla su lugar original */
+
+img#Pfijo{
+    position: fixed;
+
+}
+
+img#Centrado{
+    position: center;
+
+}
+img#pPaginado{
+    position: page;
+    top: 200px;
+    left: 200px;
+    width: 300px;
+
+}

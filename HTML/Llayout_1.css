@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap');
+
+*{
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+}
+
+.contenedor{
+    width: 1000px;
+    margin: 15px auto;
+    overflow: hidden;
+}
+
+body{
+    background:rgb(95, 78, 102) ;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+}
+
+header{
+    background: white ;
+}
+
+header nav{
+    width: 100%;
+    overflow: hidden;
+
+}
+header nav ul li{
+    float: left;
+    list-style: none;
+
+}
+header nav ul li a {
+    text-decoration: none;
+    color:black;
+    display: inline-block;
+    padding: 10px 20px;
+}
+header nav ul li a:hover{
+    background: black;
+    color: white;
+}
+
+.main {
+    width: 700px;
+    background-color: white;
+    float: left;
+}
+.main .imagen{
+    width: 100%;
+}
+.main .imagen img{
+    width: 100%;
+    vertical-align: top;
+}
+.main .publicacion{
+    padding: 45px;
+}
+.main .publicacion article h2{
+    margin-bottom: 20px;
+    color: #5d5d5d;
+}
+.main .publicacion article p{
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+aside{
+    width: 300px;
+    background: #161f26;
+    padding: 20px;
+    color: white;
+    float: left;
+}
+aside .widget{
+    margin-bottom: 15px;
+}
+aside .widget .titulo{
+    color: rgb(241, 139, 21);
+    border-bottom: 2px solid rgb(241, 139, 21);
+    margin-bottom: 10px;
+}
+aside .widget ul {
+    list-style: none;
+}
+aside .widget ul li{
+    border-bottom: 2px solid rgba(255, 255, 255, 255);
+    padding: 13px 0;
+}
+aside .widget ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+aside .widget ul li a:hover{
+    color: #636363;
+}
+footer{
+    width: 70%;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+@media (max-width: 750px){
+    
+}

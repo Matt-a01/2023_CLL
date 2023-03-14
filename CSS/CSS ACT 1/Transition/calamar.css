@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    height: 99.9vh;
+    background: #fff;
+    position: relative;
+    display: flex;
+
+}
+.contenedor::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(90deg ,#eff1 0px , transparent 1px , transparent 10px ), repeating-linear-gradient(0deg , #fff1 , 0px, #fff1, 1px transparent 10px  );
+}
+.contenedor .tarjeta{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    transition: .5s ease-in-out;
+    overflow: hidden;
+}
+.contenedor .tarjeta:hover{
+    flex-grow: 3;
+    background: rgb(65, 205, 133);
+}

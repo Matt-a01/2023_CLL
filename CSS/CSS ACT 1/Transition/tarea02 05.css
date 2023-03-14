@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(236, 208, 166);
+
+}
+
+header{
+    padding: 20px;
+    border: 1px solid cadetblue;
+    background-color: rgb(193, 224, 252);
+
+}
+
+address{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
+}
+
+nav{
+    padding: 16px;
+}
+
+img{
+    width: 120px;
+    width: 150px;
+}
+
+div{
+    margin-top: 30px;
+    padding: 1.2%;
+    background-color: rgb(240, 195, 132);
+    border: 3px solid silver ;
+    margin: 100px 50px 0 80px ;
+
+}
+
+div p{
+    columns: 2 1;
+    column-span: all;
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-right: 55%;
+
+}
+section .secsal{
+    margin-top: 12%;
+
+    
+}
+
+footer{
+    text-align: center;
+    font-size: 19px;
+    background-color: rgba(105, 105, 105, 0.418);
+    color:white
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    address {
+        font-size: 16px;
+    }
+
+    img {
+        width: 80px;
+    }
+
+    div {
+        margin: 50px 20px 0 20px;
+    }
+
+    div p {
+        padding-right: 0;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    header {
+        padding: 15px;
+    }
+
+    address {
+        font-size: 18px;
+    }
+
+    img {
+        width: 100px;
+    }
+
+    div {
+        margin: 75px 40px 0 40px;
+    }
+
+    footer {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1025px) {
+    header {
+        padding: 20px;
+    }
+
+    address {
+        font-size: 20px;
+    }
+
+    img {
+        width: 120px;
+    }
+
+    div {
+        margin: 100px 50px 0 80px;
+    }
+
+    footer {
+        font-size: 19px;
+    }
+}
+
+

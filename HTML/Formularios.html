@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <!--Tipo de unput-->
+    <form action="" method="">
+
+        <!--<input type="text" name="" id="">
+        <br>
+        <input type="number" min="8" max="100">
+        <br>
+        <input type="email" ><br>
+        <input type="password" placeholder="Contraseña">
+        <br>
+        <input type="range" min="5" max="10">
+        <br>
+        <input type="color" name="color">
+        <br>
+        <input type="submit" value="Enviar">
+        -->
+
+        <input type="text" placeholder="Incerta tu nombre" id="nombre" maxlength="20" required>
+        <br>
+        <input type="email" placeholder="Correo electronico">
+        <br>
+        <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+        <br>
+        <label for="pais"></label>
+        <select name="pais" id="pais">
+            <option value="">---</option>
+            <option value="mexico">México</option>
+            <option value="francia">Francia</option>
+            <option value="alemania">Alemania</option>
+        </select>
+        <br>
+        <input type="radio" name="genero" value="Hombre" id="hombre"><label for="hombre">Hombre</label>
+        <input type="radio" name="genero" value="Mujer" id="mujer" ><label for="mujer">Mujer</label>
+        <input type="radio" name="genero" value="otro" id="otro" ><label for="otro">otro</label>
+        <br>
+        <input type="checkbox" name="terminos" id="terminos"><label for="Terminos">Terminos y condiciones</label>
+        <br>
+        <input type="checkbox" name="publicidad" id="publicidad"><label for="Publicidad">Aceptas que mandemos
+            promociones a tu correo</label>
+        <br>
+        <input type="submit" value="Enviar" >
+
+    <!--Implementar un formulario con varios pasos
+    1- escribir una interfas para el usuario+
+    2- Implementar el procecamiento del lado del servidor
+    3-Configurar la interface de usuario para comunicarsre con el servidor
+    -->
+
+
+    </form>
+</body>
+</html>

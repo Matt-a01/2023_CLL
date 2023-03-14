@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<p>Un <b>appletb</b> confrome a lo que encontramos en las paginas de Oracle: 
+"es una aplicacion echa en Java que se llama desde un docummento <i>HTML</i> y se ejecuta dentor de un <u>navegador</u>".
+Es necesario recordar que el navegador debe tener instalado algun plugin del la Maquina Virtual Java (JVM)</p>
+<br>
+
+<p><i>Maquina Virtual de Java: </i> Es un programa que se encarga de ejecutar el bytecode generado por el compilador de Java </p>
+<br>
+
+<p>Para entender la forma en que se manejan los <b>applets</b> vamos a ver un ejemplo que presenta el clasico <font style="background-color: yellow;">hola mundo</font> </p>
+<br><br>
+
+
+
+<br><br>
+<p>Commo puede observar la unica variable que utiliza este applet es g que representa in objeto de la clase <i>graphics</i> 
+sobre el cual vamos a dibujar la cadena texto que reculta ejecutar el applet</p>
+
+<br>
+<p>para ejecutarlo es necesario mandarlo a llamar desde la pagina HTML. utilizando la etiqueta <i>< applet ></i> o la eqtiqueta <i>< object ></i>.
+En el primer caso el archivo .class se declara en el atributo code, en el segundo se declara un elemento <i>param</i> donde sus atributos <i>name</i>
+sera <i>code</i> y <i>value</i> sera el nombre del applet. Cabe mencionar que <b>en el segundo caso es necesario declarar otros elementos param adicionales
+y en elemento objet declarar algunos parametroos como <i>classid, codebase y type</i></b>. En ambos casos es necesario declarar el tamaño de la ventana del applet con los
+parametros width y height</p>
+
+<p>La salida del programa sera: <i>Hola mundo!!</i></p>
+
+<p>Todos sabemos que este es un ejemplo muy sencillo y lo habremos visto ya bastantes veces, probablemente cuando <i>Dennis N. Richie</i> escribio el lenguaje C,
+jamas imagino que sera utilizado como ejemplo inicial de tantos lenguajes de programacion</p>
+
+</body>
+</html>
